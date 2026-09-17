@@ -16,8 +16,8 @@ header{
     position: relative;
 }
 
-.mogHubLogo{
-    width: 100px;
+header img{
+    width: 90px;
     position: absolute;
     top: 10px;
     left: 10px;
@@ -34,4 +34,26 @@ header{
     display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+a:link{
+    color: #ee4a09;
+    text-decoration: none;
+}
+
+a:visited{
+    color:#f89279;
+}
+
+a:hover{
+    color: #9ace4d;
+}
+
+.currentPage{
+    color: #ee4a09;
+    border-bottom: solid thin #ee4a09;
+}
+
+.clearFix{
+    clear: both;
 }
